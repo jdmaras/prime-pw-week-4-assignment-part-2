@@ -1,3 +1,16 @@
-body{
-    background-color: aqua;
+header {
+    background-color: rgb(92, 133, 133);
+    width: fit-content;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+}
+.SuperDiv {
+    background-color: rgb(194, 110, 26);
+}
+h2 {
+    font-size: 30;
+}
+h3 {
+    font-size: 25pt;
+    background-color: bisque;
 }
