@@ -3,9 +3,11 @@ header {
     width: fit-content;
     padding: 10px 30px;
     margin-bottom: 40px;
+    text-align: center;
 }
-.SuperDiv {
+.superdiv {
     background-color: rgb(194, 110, 26);
+    color: aliceblue;
 }
 h2 {
     font-size: 30;
@@ -13,4 +15,15 @@ h2 {
 h3 {
     font-size: 25pt;
     background-color: bisque;
+    color: rebeccapurple;
+}
+.containment {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.subcontainment {
+    display: flex;
+    flex-direction: column;  
 }
